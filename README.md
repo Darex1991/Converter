@@ -12,22 +12,12 @@ Converter
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##When you have problems##
-*Don't have Bower? Paste in terminal:* 
+1. *Don't have Bower? Paste in terminal:* 
 
   ```npm config set prefix /usr/local``` 
   
   ```npm install -g bower```
+2. *No find Grunt? Paste:*
+  
+  ```npm install -g grunt-cli```
