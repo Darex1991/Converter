@@ -17,16 +17,15 @@ First make sure brew is current:
 And same for nodejs
     
     brew upgrade node
-
-Install yeoman:
-
-    npm install -g yo grunt-cli bower
     
 Clone project:
 
     git clone git@github.com:Darex1991/Converter.git
     cd Converter
+    
+Install yeoman:
 
+    npm install -g yo grunt-cli bower
 Install gems(if you want, you can use rvm):
 
     gem install haml
