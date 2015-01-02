@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193bc8ca-a9f8-49e8-98a1-15e5842c1211" name="Default" comment="add public into">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Converter.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="193bc8ca-a9f8-49e8-98a1-15e5842c1211" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Converter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -265,7 +262,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420233470363</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ifnore idea">
+      <created>1420234450514</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1420234450514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +337,8 @@
     </option>
     <MESSAGE value="add css and html from public into .gitignore" />
     <MESSAGE value="remove useless files" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless files" />
+    <MESSAGE value="ifnore idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="ifnore idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
