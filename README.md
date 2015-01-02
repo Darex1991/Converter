@@ -31,7 +31,6 @@ Install gems(if you want, you can use rvm):
 
     gem install haml
     gem install sass
-    gem install haml
     gem install compass
 
 Install dependencies:
