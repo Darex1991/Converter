@@ -10,7 +10,7 @@ Converter
 
 *Upgrade into new version:* ```sudo npm install npm -g```
 
-
+*Run server:* ```grunt serve```
 
 ##When you have problems##
 1. *Don't have Bower? Paste in terminal:* 
