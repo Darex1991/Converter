@@ -9,3 +9,25 @@ Converter
 *Then install with Ubuntu:* ```sudo apt-get install -y nodejs```
 
 *Upgrade into new version:* ```sudo npm install npm -g```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##When you have problems##
+*Don't have Bower? Paste in terminal:* 
+
+  ```npm config set prefix /usr/local``` 
+  
+  ```npm install -g bower```
