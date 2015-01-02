@@ -35,6 +35,7 @@ Install gems(if you want, you can use rvm):
     gem install compass
 
 Install dependencies:
+    
     npm install
     bower install
     npm install -g grunt-cli
