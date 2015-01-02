@@ -29,3 +29,6 @@ Converter
   ```gem install sass```
   
   ```gem install compass```
+4. *No find haml files:*
+
+  ```npm install grunt-haml```
