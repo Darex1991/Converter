@@ -1,6 +1,15 @@
 language: node_js
 node_js:
   - "0.8"
-before_install: npm install -g grunt-cli
-install: npm install
-before_script: grunt build
+before_install:
+  - brew update
+  - brew install beanstalk
+  - brew upgrade node
+  - npm install -g yo grunt-cli bower
+  - gem install haml
+  - gem install sass
+  - gem install compass
+install:
+  - npm install
+  - bower install
+before_script: grunt server
