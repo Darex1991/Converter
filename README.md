@@ -26,6 +26,7 @@ Clone project:
 Install yeoman:
 
     npm install -g yo grunt-cli bower
+
 Install gems(if you want, you can use rvm):
 
     gem install haml
@@ -47,7 +48,6 @@ Try run tests and server. If it's still no working paste this in terminal:
     npm install grunt-contrib-sass --save-dev
     npm install grunt-contrib-clean --save-dev
     npm install grunt-contrib-haml --save-dev
-
 
 ## Test (Karma)
 
