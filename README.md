@@ -36,6 +36,9 @@ Install dependencies:
     
     npm install
     bower install
+    
+Try run tests and server. If it's still no working paste this in terminal:
+    
     npm install -g grunt-cli
     npm install grunt-contrib-connect --save-dev
     npm install grunt-contrib-watch --save-dev
