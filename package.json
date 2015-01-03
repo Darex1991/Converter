@@ -1,7 +1,10 @@
 {
   "name": "yeoman-angular-haml",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.10.6",
+    "gzippo": "^0.2.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",
@@ -30,5 +33,9 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
   }
+
 }
