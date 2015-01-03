@@ -6,11 +6,10 @@ before_install:
   - gem install haml
   - gem install sass
   - gem install compass
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
 install:
   - npm install
   - bower install
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-  - ./node_modules/.bin/karma start --browsers Firefox --single-run
   - grunt server
