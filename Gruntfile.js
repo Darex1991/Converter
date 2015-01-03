@@ -107,12 +107,6 @@ module.exports = function (grunt) {
         '<%= yeoman.app %>/scripts/{,*/}*.js'
       ]
     },
-    karma: {
-      unit: {
-        configFile: 'karma.conf.js',
-        singleRun: true
-      }
-    },
     coffee: {
       dist: {
         files: [
@@ -315,8 +309,7 @@ module.exports = function (grunt) {
     'coffee',
     'haml',
     'compass',
-    'connect:test',
-    'karma'
+    'connect:test'
   ]);
 
   grunt.registerTask('build', [
