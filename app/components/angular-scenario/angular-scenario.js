@@ -13088,8 +13088,8 @@ function $CacheFactoryProvider() {
  * Adding via the $templateCache service:
  * 
  * <pre>
- * var myApp = angular.module('myApp', []);
- * myApp.run(function($templateCache) {
+ * var converterApp = angular.module('converterApp', []);
+ * converterApp.run(function($templateCache) {
  *   $templateCache.put('templateId.html', 'This is the content of the template');
  * });
  * </pre>
