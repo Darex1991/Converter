@@ -1,9 +1,9 @@
 'use strict'
 
 angular.module('converterApp')
-  .controller 'MainCtrl', ($scope) ->
+  .controller 'AboutCtrl', ($scope) ->
     $scope.awesomeThings = [
-      'HTML5 Boilerplate', 
+      'HTML5 Boilerplate',
       'Bootstrap',
       'AngularJS',
       'HAML',

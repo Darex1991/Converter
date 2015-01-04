@@ -1,5 +1,5 @@
 {
-  "name": "yeoman-angular-haml",
+  "name": "converter-app",
   "version": "0.0.0",
   "dependencies": {
     "bower": "~0.9.2",
