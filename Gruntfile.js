@@ -345,7 +345,8 @@ module.exports = function (grunt) {
     'cdnify',
     'ngmin',
     'uglify',
-    'rev'
+    'rev',
+    'usemin:html'
   );
   grunt.registerTask('heroku:development',
     'clean:dist',
@@ -363,6 +364,6 @@ module.exports = function (grunt) {
     'ngmin',
     'uglify',
     'rev',
-    'usemin'
+    'usemin:html'
   );
 };
