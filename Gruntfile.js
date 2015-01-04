@@ -333,7 +333,6 @@ module.exports = function (grunt) {
   grunt.registerTask('default', ['build']);
   grunt.registerTask('heroku:production',
     'clean:dist',
-    'jshint',
     'test',
     'coffee',
     'compass:dist',
@@ -351,7 +350,6 @@ module.exports = function (grunt) {
   );
   grunt.registerTask('heroku:development',
     'clean:dist',
-    'jshint',
     'test',
     'coffee',
     'compass:dist',
