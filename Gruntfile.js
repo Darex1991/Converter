@@ -331,40 +331,6 @@ module.exports = function (grunt) {
     'usemin'
   ]);
   grunt.registerTask('default', ['build']);
-  grunt.registerTask('heroku:production',
-    'clean:dist',
-    'test',
-    'coffee',
-    'haml',
-    'compass:dist',
-    'useminPrepare',
-    'imagemin',
-    'cssmin',
-    'htmlmin',
-    'concat',
-    'copy',
-    'cdnify',
-    'ngmin',
-    'uglify',
-    'rev',
-    'usemin:html'
-  );
-  grunt.registerTask('heroku:development',
-    'clean:dist',
-    'test',
-    'coffee',
-    'haml',
-    'compass:dist',
-    'useminPrepare',
-    'imagemin',
-    'cssmin',
-    'htmlmin',
-    'concat',
-    'copy',
-    'cdnify',
-    'ngmin',
-    'uglify',
-    'rev',
-    'usemin:html'
+  grunt.registerTask('heroku:production', ['build']
   );
 };
