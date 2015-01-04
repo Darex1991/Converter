@@ -290,7 +290,6 @@ module.exports = function (grunt) {
       }
     }
   });
-  grunt.loadNpmTasks('grunt-haml');
   grunt.renameTask('regarde', 'watch');
 
   grunt.registerTask('server', [
@@ -353,7 +352,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'test',
     'coffee',
-    'haml:dist',
+      'haml:dist',
     'compass:dist',
     'useminPrepare',
     'imagemin',
