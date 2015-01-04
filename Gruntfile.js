@@ -368,5 +368,4 @@ module.exports = function (grunt) {
     'rev',
     'usemin'
   );
-  grunt.registerTask('heroku:production', 'clean less mincss uglify');
 };
