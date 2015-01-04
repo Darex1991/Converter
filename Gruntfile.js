@@ -290,7 +290,7 @@ module.exports = function (grunt) {
       }
     }
   });
-
+  grunt.loadNpmTasks('grunt-haml');
   grunt.renameTask('regarde', 'watch');
 
   grunt.registerTask('server', [
