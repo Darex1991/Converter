@@ -22,6 +22,7 @@
     "grunt-google-cdn": "~0.2.1",
     "grunt-ngmin": "0.0.3",
     "grunt-open": "~0.2.1",
+    "grunt-usemin": "~0.1.12",
     "grunt-regarde": "~0.1.1",
     "grunt-rev": "~0.1.0",
     "grunt-open": "~0.2.1",
