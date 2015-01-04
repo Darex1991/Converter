@@ -330,7 +330,6 @@ module.exports = function (grunt) {
     'rev',
     'usemin'
   ]);
-  grunt.loadNpmTasks('grunt-heroku-deploy');
   grunt.registerTask('default', ['build']);
   grunt.registerTask('heroku:production',
     'clean:dist',
