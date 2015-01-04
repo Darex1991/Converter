@@ -18,6 +18,7 @@
     "grunt-contrib-imagemin": "~0.1.4",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-livereload": "~0.1.2",
+    "grunt-haml": "~0.5.0",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-google-cdn": "~0.2.1",
     "grunt-ngmin": "0.0.3",
