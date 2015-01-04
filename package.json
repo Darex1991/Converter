@@ -36,5 +36,4 @@
   "scripts": {
     "test": "grunt test"
   }
-
 }
