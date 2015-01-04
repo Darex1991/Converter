@@ -332,4 +332,41 @@ module.exports = function (grunt) {
   ]);
   grunt.loadNpmTasks('grunt-heroku-deploy');
   grunt.registerTask('default', ['build']);
+  grunt.registerTask('heroku:production',
+    'clean:dist',
+    'jshint',
+    'test',
+    'coffee',
+    'compass:dist',
+    'useminPrepare',
+    'imagemin',
+    'cssmin',
+    'htmlmin',
+    'concat',
+    'copy',
+    'cdnify',
+    'ngmin',
+    'uglify',
+    'rev',
+    'usemin'
+  );
+  grunt.registerTask('heroku:development',
+    'clean:dist',
+    'jshint',
+    'test',
+    'coffee',
+    'compass:dist',
+    'useminPrepare',
+    'imagemin',
+    'cssmin',
+    'htmlmin',
+    'concat',
+    'copy',
+    'cdnify',
+    'ngmin',
+    'uglify',
+    'rev',
+    'usemin'
+  );
+  grunt.registerTask('heroku:production', 'clean less mincss uglify');
 };
